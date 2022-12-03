@@ -1,0 +1,81 @@
+@import url(./variable.css);
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: var(--background-color);
+  text-align: justify;
+}
+.sidebar {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+.sidebar li:hover {
+  background-color: var(--text-color);
+  color: var(--background-color);
+}
+.banner {
+  background-color: var(--banner-color);
+  border-radius: 25px;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+.banner li,
+td,
+th,
+p {
+  font-size: 18px;
+  color: var(--text-color);
+  font-weight: 600;
+}
+h1,
+h2,
+h3,
+h4,
+a,
+li {
+  color: var(--text-color);
+  font-weight: bold;
+}
+i {
+  font-size: 25px;
+  margin: 5px;
+}
+.footer {
+  background-color: var(--navbar-color);
+  color: var(--text-color);
+  box-shadow: var(--box-shadow-color);
+}
+.navSection {
+  background-color: var(--navbar-color);
+  box-shadow: var(--box-shadow-color);
+}
+.navSection a {
+  color: var(--text-color);
+}
+.navSection a:hover {
+  color: var(--text-color);
+  border-bottom: 2px solid var(--text-color);
+}
+.darkmode #dark {
+  padding: 3px;
+  width: 40px;
+  cursor: pointer;
+}
+span h4 {
+  color: black !important;
+  width: 150px;
+  font-weight: bold;
+}
+.openS {
+  color: var(--text-color);
+  border: 3px solid var(--text-color);
+  background-color: var(--navbar-color);
+  border-radius: 5px;
+  font-size: 20px;
+}
+button {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid var(--text-color);
+}

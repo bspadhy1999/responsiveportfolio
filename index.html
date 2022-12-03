@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <!-- Nav Section -->
+    <nav class="navbar sticky-top navbar-expand-lg navSection">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Portfolio</a>
+          <button class="navbar-toggler openS" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-2">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#education">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#project">Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skill">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#certificate">Certification</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="text" placeholder="Search" aria-label="Search" id="inputSearch">
+              <div class="darkmode">
+                <img id="dark" src="media\moon.png" alt="moon-image" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <div class="offcanvas offcanvas-end sidebar" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Menu</h5>
+        <button type="button" class="openS p-1" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="offcanvas-body p-1">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-2">
+        <li class="nav-item">
+          <a class="nav-link active ps-3" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ps-3" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ps-3" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ps-3" href="#project">Project</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ps-3" href="#skill">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ps-3" href="#certificate">Certification</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ps-3" href="#contact">Contact</a>
+        </li>
+      </ul>
+      <div class="darkmode ps-3">
+        <img id="dark" src="media\moon.png" alt="moon-image" />
+      </div>
+    </div>
+    </div>
+
+    <!-- Banner Section -->
+    <div class="container banner">
+      <div class="row align-items-center">
+        <div class="col-md-5 p-2 ps-md-5">
+          <img class="ms-md-5" src="media/profileimage.png" alt="" style="height: 90vh; width: auto;">
+        </div>
+        <div class="col-md-6" data-aos="zoom-in" data-aos="fade-down" data-aos-duration="1500">
+          <p>Hey! I'm <b class="h2"><strong>Bhabani Sankar Padhy</strong></b></p>
+          <p class="h4 mb-3 me-5">B-Tech in Mechanical Engineering looking for a Developer role with <small><b>Immediate Joiner</b></small></p>
+          <a href="https://drive.google.com/file/d/1-5G-q0K2sYrC7F0g3Q02wpQrHsHujRA9/view?usp=share_link" target="_blank"><button>Download Resume</button></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="container banner" id="about">
+        <div class="row p-md-5 p-3">
+            <div class="col-md-6">
+                <h2>About Me</h2>
+                <p>A motivated individual with in-depth knowledge of languages and development tools, seeking a position in a growth-oriented company where I can use my skills to the advantage of the company while having the scope to develop my own skills.
+                </p>
+                <h2>Personal-Info</h2>
+                <p>Gender - Male <br>
+                D.O.B - 22.08.1999 <br>
+                Nationality - Indian <br>
+                Religion - Hindu <br>
+                Category - General <br>
+                Marital Status - Single <br>
+                Language Known - Odia, English, Hindi <br>
+                Hobbies - Travelling and Exploring</p>
+            </div>
+            <div class="col-md-6 ps-md-0 justify-content-center">
+                <img class="rounded shadow" src="media\about.jpg" width="107%"/>
+            </div>
+        </div>
+    </div>
+
+    <!-- Education Section -->
+    <div class="container banner" id="education">
+        <div class="row p-md-5 p-2">
+            <div class="col-md-12">
+              <h2>Educational Details :</h2>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                              <th scope="col">Year</th>
+                              <th scope="col">Degree/Examination</th>
+                              <th scope="col">Institution/ Board</th>
+                              <th scope="col">Percentage</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">2021</th>
+                              <td>B. Tech in Mechanical Engineering</td>
+                              <td>Parala Maharaja Engineering College, BPUT, Odisha</td>
+                              <td>76%</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">2018</th>
+                              <td>Diploma in Mechanical Engineering</td>
+                              <td>Uma Charan Pattnaik Engineering School, SCTE&VT, Odisha</td>
+                              <td>82%</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">2015</th>
+                              <td>10th</td>
+                              <td>@Bhairavi High School, BSE, Odisha</td>
+                              <td>85%</td>
+                            </tr>
+                          </tbody>
+                    </table>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project Section -->
+    <div class="container banner" id="project">
+        <div class="row p-md-5 p-2">
+            <div class="col-md-12">
+              <h2>Projects :</h2>
+                <div>
+                    <h3>Note Maker Project <a href="https://github.com/bspadhy1999/NoteMakerTODO" target="_blank">[Link]</a></h3>
+                    <ul>
+                      <li>It's a web based Note Maker where a user can store his details with title and current date.</li>
+                      <li>I have created this project to understand more about how Hibernate ORM works as well as to study and practice the concepts of Html, Css, Bootstrap, Mysql, Spring framework.</li>
+                      <li>Tech stack used : Advance Java, Hibernate, Spring ORM.</li>
+                    </ul>
+                </div>
+                <div>
+                  <h3>Smart Contact Manager <a href="https://github.com/bspadhy1999/SmartContactManager" target="_blank">[Link]</a></h3>
+                  <ul>
+                    <li>It's a web based project where a user first creates an account, can login to Server and manage contacts details.</li>
+                    <li>I have created this project to understand more about how Spring Security works as well as to study and practice the concepts of Spring Boot and JavaX Mail Service.</li>
+                    <li>Tech stack used : Html, Css, JavaScript, Bootstrap, Thymeleaf, Hibernate, Spring Boot, Spring Security, JavaX Mail Service, RazorPay Payment Integration</li>
+                  </ul>
+              </div>
+                <div>
+                  <h3>Github Finder <a href="https://bspadhy1999.github.io/WebAssignment/4-Advance-JS/410-Projects/AdvanceJS-410-01/index.html" target="_blank">[Link]</a></h3>
+                  <ul>
+                    <li>It's a web based project where a user can search the github account of others by the username.</li>
+                    <li>I have created this project to understand more about how we can send request from Client application to Server side application using Fetch and in the response how Server side application send Promise Object.</li>
+                    <li>Tech stack used : Html, Css, JavaScript</li>
+                  </ul>
+              </div>
+              
+            </div>
+        </div>
+    </div>
+
+    <!-- Skill Section -->
+    <div class="container banner" id="skill">
+      <div class="row p-md-5 p-2">
+          <h2>Skills :</h2>
+          <h3>Frontend :</h3>
+          <div data-aos="flip-left" class="col-md-3">
+            <span class="border-bottom border-secondary border-5 p-2 shadow me-5 ms-5 mt-2 mb-2 ps-5 pe-5 badge rounded-pill text-bg-light"><h4>HTML</h4></span>
+          </div>
+          <div data-aos="flip-left" class="col-md-3">
+            <span class="border-bottom border-secondary border-5 p-2 shadow me-5 ms-5 ps-5 pe-5 badge rounded-pill text-bg-light"><h4>CSS</h4></span>
+          </div>
+          <div data-aos="flip-left" class="col-md-3">
+            <span class="border-bottom border-secondary border-5 p-2 shadow me-5 ms-5 ps-5 pe-5 mt-2 badge rounded-pill text-bg-light"><h4>JavaScript</h4></span>
+          </div>
+          <div data-aos="flip-left" class="col-md-3">
+            <span class="border-bottom border-secondary border-5 p-2 shadow me-5 ms-5 ps-5 pe-5 mt-2 badge rounded-pill text-bg-light"><h4>Bootstrap</h4></span>
+          </div>
+          <h3>Backend :</h3>
+          <div data-aos="flip-left" class="col-md-3">
+            <span class="border-bottom border-secondary border-5 p-2 shadow me-5 ms-5 mt-2 mb-2 ps-5 pe-5 badge rounded-pill text-bg-light"><h4>Core Java</h4></span>
+          </div>
+          <div data-aos="flip-left" class="col-md-3">
+            <span class="border-bottom border-secondary border-5 p-2 shadow me-5 ms-5 ps-5 pe-5 badge rounded-pill text-bg-light"><h4>Advance Java</h4></span>
+          </div>
+          <div data-aos="flip-left" class="col-md-3">
+            <span class="border-bottom border-secondary border-5 p-2 shadow me-5 ms-5 ps-5 pe-5 mt-2 badge rounded-pill text-bg-light"><h4>Hibernate</h4></span>
+          </div>
+          <div data-aos="flip-left" class="col-md-3">
+            <span class="border-bottom border-secondary border-5 p-2 shadow me-5 ms-5 ps-5 pe-5 mt-2 badge rounded-pill text-bg-light"><h4>Spring Boot</h4></span>
+          </div>
+          <h3>Database :</h3>
+          <div data-aos="flip-left" class="col-md-3">
+            <span class="border-bottom border-secondary border-5 p-2 shadow ps-5 ms-5 pe-5 mt-2 badge rounded-pill text-bg-light"><h4>MySQL</h4></span>
+          </div>
+          <div data-aos="flip-left" class="col-md-3">
+            <span class="border-bottom border-secondary border-5 p-2 shadow ps-5 ms-5 pe-5 mt-2 badge rounded-pill text-bg-light"><h4>MongoDB</h4></span>
+          </div>
+      </div>
+    </div>
+
+    <!-- Certification and Award Section -->
+    <div class="container banner" id="certificate">
+        <div class="row p-md-5 p-2">
+            <div class="col-md-12">
+                <div>
+                    <h2>Certifications :</h2>
+                    <h3>Geekster | Geekster Coding Bootcamp</h3>
+                    <ul>
+                      <li>Solved various DSA/Coding questions on geekster platform</li>
+                      <li>Participated in various Coding contests organised by the platform</li>
+                      <li>Worked on various projects like Tic Tac Toe, Atm Machine Project</li>
+                      <li>Technical Stack Learned : Java, OOPS, MySQL and DSA</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Awards :</h2>
+                    <ul>
+                      <li>I have received scholarship from North South Foundation during study period of Diploma and B-tech.</li>
+                      <li>I have received scholarship from State Council for Technical Education & Vocational Training, Odisha for Branch Topper in the yaer of 2018.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="container banner" id="contact">
+        <div class="row p-md-5 p-2">
+            <div class="col-md-6">
+                <img class="shadow rounded" src="media\Work.jpg" width="100%"/>
+            </div>
+            <div class="col-md-6 p-md-5 mt-5">
+                <h2 class="text-center mb-3">Get in touch with me here!</h2>
+                <form onsubmit="sendEmail(); reset(); return false;"  >
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="name" placeholder="name@example.com" required>
+                        <label for="floatingInput">Your Name</label>
+                      </div>
+                      <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="email" placeholder="Password" required>
+                        <label for="floatingPassword">Your Email Id</label>
+                      </div>
+                      <div class="form-floating mb-3">
+                        <input type="number" class="form-control" id="mobile" placeholder="Password" required>
+                        <label for="floatingPassword">Your Mobile No</label>
+                      </div>
+                      <div class="form-floating mb-3">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="message" style="height: 100px" required></textarea>
+                        <label for="floatingTextarea2">Your Message</label>
+                      </div>
+                      <div class="d-flex">
+                        <button type="submit" class="btn btn-success me-3">Send</button>
+                        <button type="reset" class="btn btn-danger">Reset</button>
+                      </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer section -->
+    <section class="footer p-3">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+               <h2>Bhabani Sankar Padhy</h2>
+                <a href="mailto:bspadhy1999@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                <a href="tel:+7606823010"><i class="fa-solid fa-phone"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=6370023010" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/in/bhabani-sankar-padhy-3aa1b4146/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/bspadhy1999" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <p>Copyright &copy;2022, All rights are reserved</p>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </body>
+</html>

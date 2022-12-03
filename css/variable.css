@@ -1,0 +1,17 @@
+:root {
+  --text-color: black;
+  --background-color: white;
+  --banner-color: rgba(221, 152, 67, 0.123);
+  --navbar-color: whitesmoke;
+  --footer-color: whitesmoke;
+  --box-shadow-color: 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+
+.darkmode {
+  --text-color: white;
+  --background-color: black;
+  --navbar-color: black;
+  --footer-color: black;
+  --banner-color: rgba(255, 228, 196, 0.184);
+  --box-shadow-color: 0px 0px 8px rgb(255, 255, 255);
+}
